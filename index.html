@@ -1,1 +1,113 @@
 
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人实验作业网站</title>
+    <style>
+        main {
+            background-image: url(001.jpeg);
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #eee;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+        }
+
+        p {
+            animation-duration: 3s;
+            animation-name: slidein;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+        }
+
+        @keyframes slidein {
+            form {
+                margin-left: 100%;
+                width: 300%;
+            }
+
+            to {
+                margin-left: 0%;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>我的个人实验作业网站</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#experiment1">实验一</a></li>
+            <li><a href="#experiment2">实验二</a></li>
+            <li><a href="#experiment3">实验三</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="experiment1">
+            <h2>实验一</h2>
+            <p>这里描述实验一的内容。</p>
+            <pre><code>&lt;!-- 你的代码 --&gt;</code></pre>
+        </section>
+        <section id="experiment2">
+            <h2>实验二</h2>
+            <p>这里描述实验二的内容。</p>
+            <pre><code>&lt;!-- 你的代码 --&gt;</code></pre>
+        </section>
+        <section id="experiment3">
+            <h2>实验三</h2>
+            <p>这里描述实验三的内容。</p>
+            <pre><code>&lt;!-- 你的代码 --&gt;</code></pre>
+        </section>
+    </main>
+    <footer>
+        <p>版权所有 © 2024 我的名字</p>
+    </footer>
+</body>
+
+</html>
